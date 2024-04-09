@@ -1,0 +1,95 @@
+/* CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%; /* Increased container width */
+    margin: 0 auto;
+}
+
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header #logo {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 32px; /* Increased font size */
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 30px; /* Increased margin */
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px; /* Increased font size */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+section {
+    width: 48%;
+}
+
+#welcome {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px; /* Increased padding */
+}
+
+#welcome img {
+    display: block;
+    margin-top: 30px; /* Increased margin */
+    width: 100%;
+}
+
+#line-up {
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 40px; /* Increased padding */
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 0 0 50%;
+    padding: 20px; /* Increased padding */
+}
+
+.image-container img {
+    width: 100%;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    padding: 40px 0; /* Increased padding */
+    text-align: center;
+}
