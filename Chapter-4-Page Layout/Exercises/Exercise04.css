@@ -77,6 +77,22 @@ section {
     padding: 40px; 
 }
 
+#line-up ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+#line-up li {
+    margin-bottom: 10px;
+}
+
+#line-up ul li::before {
+    content: "-"; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+
 .image-grid {
     display: flex;
     flex-wrap: wrap;
