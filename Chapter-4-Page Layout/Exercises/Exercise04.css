@@ -77,7 +77,9 @@ section {
 #line-up {
     background-color: #172d67;
     color: #ffffff;
-    padding: 40px; 
+    padding: 20px;
+    width: 40%;
+    float: right; 
 }
 
 #line-up ul {
@@ -109,9 +111,10 @@ section {
 }
 
 .image-container img {
-    width: 100%;
-
+    width: 50px; 
+    height: auto; 
 }
+
 
 footer {
     position: absolute; 
