@@ -60,6 +60,15 @@ section {
     width: 48%;
 }
 
+p {
+    font-size: 20px;
+}
+
+
+#headings {
+    font-size: 24px;
+}
+
 #welcome {
     background-color: #ffffff;
     color: #000000;
@@ -67,6 +76,12 @@ section {
     width: 70%; 
     float: left; 
 }
+
+#welcome h1 {
+    text-decoration: underline; 
+    font-size: 36px; 
+}
+
 
 #welcome img {
     display: block;
