@@ -21,7 +21,7 @@ header {
 header #logo {
     font-family: Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
     text-decoration: underline; 
 }
 
@@ -30,7 +30,8 @@ header #logo {
 }
 
 header nav {
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 16px; 
 }
 
 header nav ul {
@@ -47,7 +48,7 @@ header nav ul li {
 header nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 main {
@@ -95,15 +96,18 @@ p {
     padding: 20px;
     width: 28%; 
     float: right; 
+    font-size: 28px;
 }
 
 #line-up ul {
     list-style-type: none; 
     padding: 0;
+    margin-top: 20px;
 }
 
 #line-up li {
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 #line-up ul li::before {
