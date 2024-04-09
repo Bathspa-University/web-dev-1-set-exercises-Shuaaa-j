@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 90%; 
+    width: 80%; 
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ header {
 header #logo {
     font-family: Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     text-decoration: underline; 
 }
 
@@ -43,13 +43,13 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-left: 30px; 
+    margin-left: 20px; 
 }
 
 header nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 18px; 
 }
 
 main {
@@ -72,7 +72,7 @@ section {
 
 #welcome img {
     display: block;
-    margin-top: 30px; 
+    margin-top: 20px; 
     width: 100%;
 }
 
@@ -124,7 +124,7 @@ footer {
     width: 100%;
     background-color: #8c15e9;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 28px;
 }
