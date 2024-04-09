@@ -1,10 +1,8 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    position: relative; 
-    margin: 0;
+    position: relative;
     min-height: 100vh; 
 }
 
@@ -16,7 +14,7 @@ body {
 header {
     background-color: #17072b;
     color: #ffffff;
-    padding: 40px 0;
+    padding: 20px 0; 
     text-align: center;
 }
 
@@ -43,13 +41,13 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-left: 20px; 
+    margin-left: 10px; 
 }
 
 header nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 16px; 
 }
 
 main {
@@ -66,7 +64,7 @@ section {
     background-color: #ffffff;
     color: #000000;
     padding: 20px;
-    width: 75%;
+    width: 70%; 
     float: left; 
 }
 
@@ -80,7 +78,7 @@ section {
     background-color: #172d67;
     color: #ffffff;
     padding: 20px;
-    width: 25%; 
+    width: 28%; 
     float: right; 
 }
 
@@ -117,14 +115,13 @@ section {
     height: auto; 
 }
 
-
 footer {
     position: absolute; 
     bottom: 0;
     width: 100%;
     background-color: #8c15e9;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 10px 0; 
     text-align: center;
-    font-size: 28px;
+    font-size: 16px; 
 }
