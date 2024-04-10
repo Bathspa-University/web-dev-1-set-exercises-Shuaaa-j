@@ -4,3 +4,20 @@
 }
 
 
+.filtered-image {
+  filter: contrast(120%) brightness(110%) saturate(120%);
+}
+
+.portrait {
+  width: auto;
+  max-height: 80vh; 
+}
+
+.image-container {
+  margin: 0 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #555;
+}
