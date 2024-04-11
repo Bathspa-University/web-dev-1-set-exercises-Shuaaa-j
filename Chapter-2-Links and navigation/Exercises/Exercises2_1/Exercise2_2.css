@@ -52,7 +52,7 @@ body {
     font-family: rye-regular;
     text-shadow: 2px 2px 2px black; /* Add a black outline */
     margin-bottom: -35px; /* Add margin to create space between h1 and p */
-  }
+  } 
   
   header p {
     font-size: 18px;
@@ -79,6 +79,7 @@ body {
     list-style-type: none;
   }
   
+
   .footer {
     text-align: center;
     padding: 20px 0;
@@ -87,7 +88,7 @@ body {
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -95,5 +96,5 @@ body {
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #242222;
   }
