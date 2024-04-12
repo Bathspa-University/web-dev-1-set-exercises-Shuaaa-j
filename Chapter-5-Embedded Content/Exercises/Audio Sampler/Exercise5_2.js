@@ -7,10 +7,13 @@ const audioSamples = [
   { name: "Hello Partridge!", file: "hellopartridge.mp3", duration: 3 },
   { name: "I ate a Scotch egg!", file: "iateascotchegg.mp3", duration: 5 },
   { name: "I'm confused!", file: "imconfused.mp3", duration: 3 },
-  { name: "Dan!", file: "dan.mp3", duration: 2 }
+  { name: "Dan!", file: "dan.mp3", duration: 2 },
+  { name: "Oy", file: "Oy.mp3", duration: 1 },
+  { name: "YEET", file: "YEET.mp3", duration: 4 },
+  { name: "Announcement", file: "Announcement.mp3", duration: 4 }
 ];
 
-// Get reference to the soundboard container, text input, buttons, and pagination buttons
+// Get reference to the soundboard container, buttons, and pagination buttons
 const soundboard = document.querySelector('.soundboard');
 const textToSpeechInput = document.getElementById('text-to-speech-input');
 const textToSpeechButton = document.getElementById('text-to-speech-button');
@@ -77,3 +80,6 @@ function convertTextToSpeech(text) {
   const utterance = new SpeechSynthesisUtterance(text); // Create utterance with entered text
   speechSynthesis.speak(utterance); // Speak the utterance
 }
+
+// Initial display of samples
+displaySamples();
