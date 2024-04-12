@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petrol Calculator</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="Exercise6_1.css">
 </head>
 <body>
+    <!-- Container for the calculator -->
     <div class="container">
+        <!-- Calculator title -->
         <h1>Petrol Calculator</h1>
+        <!-- Input field for petrol cost -->
         <div class="input-group">
             <label for="petrolCost">Cost of Petrol per Liter:</label>
             <input type="number" id="petrolCost" step="0.01" value="1.72">
         </div>
+        <!-- Input field for number of liters purchased -->
         <div class="input-group">
             <label for="liters">Number of Liters Purchased:</label>
             <input type="number" id="liters" step="0.01" value="0">
         </div>
+        <!-- Input field for money inserted -->
         <div class="input-group">
             <label for="bills">Money Inserted:</label>
             <input type="number" id="bills" step="0.01" value="0">
         </div>
-        <!-- Error display area -->
+
+        <!-- Display area for error message -->
         <div id="errorDisplay" class="error-message"></div>
+        <!-- Button to calculate -->
         <button id="calculateBtn">Calculate</button>
+        <!-- Display area for receipt -->
         <div id="receipt" class="hidden">
             <h2>Receipt</h2>
             <p>Total Cost: <span id="result"></span></p>
@@ -32,6 +41,7 @@
         </div>
     </div>
 
+    <!-- Link to external JavaScript file -->
     <script src="Exercise6_1.js"></script>
 </body>
 </html>
