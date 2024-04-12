@@ -66,6 +66,116 @@
     </div>
 </div>
 
+<div class="row" id="table">
+    <div class="col">
+        <h2>Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Joshua</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Gofullco</td>
+                <td>12</td>
+            </tr>
+        </table>
+        <pre><code>Code: &lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Joshua&lt;/td&gt;
+    &lt;td&gt;24&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Gofulco&lt;/td&gt;
+    &lt;td&gt;25&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+        <p>Usage: Use the &lt;table&gt; tag to create a table. Tables are used to display data in rows and columns, making it easier to organize and present information.</p>
+    </div>
+</div>
+
+<div class="row" id="image">
+    <div class="col">
+        <h2>Image</h2>
+        <img src="image1_2.png" alt="Description of the image">
+        <pre><code>Code: &lt;img src="image1_1.png" alt="Description of the image"&gt;</code></pre>
+        <p>Usage: Use the &lt;img&gt; tag to display images. Images enhance the visual appeal of a web page and are commonly used to convey information or enhance content.</p>
+    </div>
+</div>
+
+<div class="row" id="css">
+    <div class="col">
+        <h2>CSS Properties</h2>
+        <div class="css-properties">    
+            <p class="red-text">Color.</p>  
+            <p class="center"> Text-Align </p>
+            <p class="bold"> Font-Weight </p>
+        </div>
+        <pre><code>Code: ..red-text {
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}</code></pre>
+        <p>Usage: Apply CSS properties to HTML elements to style them. This example demonstrates setting color, text alignment, and font weight. CSS allows you to customize the appearance of your web page and make it visually appealing.</p>
+    </div>
+</div>
+
+<div class="row" id="transform">
+    <div class="col">
+        <h2>Transform</h2>
+        <p>Transforms are used to modify the appearance and position of elements in CSS. Common transformations include rotation, scaling, skewing, and translating.</p>
+        <div class="transform-square"></div>
+        <pre><code>Code: .transform-square {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 10px auto;
+  transform: rotate(45deg);
+}</code></pre>
+        <p>Usage: Use the transform property in CSS to apply various transformations to elements. This example rotates an element by 45 degrees.</p>
+    </div>
+</div>
+
+<div class="row" id="flexbox">
+    <div class="col">
+        <h2>Flexbox</h2>
+        <p>Flexbox is a layout model in CSS designed to provide a more efficient way to distribute space and align items within a container, even when their size is unknown or dynamic. </p>
+        <div class="flex-container">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+        <pre><code>Code: .flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}</code></pre>
+        <p>Usage: Use flexbox layout to design flexible and efficient layouts in CSS. This example demonstrates a basic flex container with three flex items. Flexbox provides a powerful way to create responsive and dynamic layouts without relying heavily on floats or positioning.</p>
+    </div>
+</div>
 
 </body>
 </html>
