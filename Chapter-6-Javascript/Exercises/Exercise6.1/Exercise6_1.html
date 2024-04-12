@@ -17,8 +17,19 @@
             <label for="liters">Number of Liters Purchased:</label>
             <input type="number" id="liters" step="0.01" value="0">
         </div>
+        <!-- New input fields for bills -->
+        <div class="input-group">
+            <label for="bills">Bills Inserted:</label>
+            <input type="number" id="bills" step="0.01" value="0">
+        </div>
         <button id="calculateBtn">Calculate</button>
-        <p id="totalCost" class="hidden">Total Cost: <span id="result"></span></p>
+        <!-- Display area for receipt -->
+        <div id="receipt" class="hidden">
+            <h2>Receipt</h2>
+            <p>Total Cost: <span id="result"></span></p>
+            <p>Bills Inserted: <span id="billsInserted"></span></p>
+            <p>Change: <span id="change"></span></p>
+        </div>
     </div>
 
     <script src="Exercise6_1.js"></script>
