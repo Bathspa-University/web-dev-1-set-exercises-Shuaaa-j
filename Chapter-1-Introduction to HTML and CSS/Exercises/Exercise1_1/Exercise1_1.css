@@ -1,3 +1,5 @@
+/*  (.) in the titles are class selectors   */
+
 /* Resets default margin, padding, and box-sizing */
 * {
   margin: 0;
@@ -38,9 +40,9 @@ header {
 }
 
 .header h1 {
-  margin-top: 50px; /* Adds space above the header title */
   font-size: 32px; /* Sets the font size of the header title */
   color: #ffffff; /* Sets the color of the header title */
+  margin-top: 50px; /* Adds space on the top of the h1 */
 }
 
 footer {
@@ -77,11 +79,8 @@ nav ul li a:hover {
   color: #fff; /* Changes text color on hover */
 }
 
-/* Container for sections */
+/* Section container styles */
 .section-container {
-  background-color: #edd6d6; /* Sets the background color of section containers */
-  border-radius: 12px; /* Rounds the corners of section containers */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow effect to section containers */
   padding: 30px; /* Adds padding inside section containers */
 }
 
@@ -145,6 +144,7 @@ nav ul li a:hover {
 
 /* Main content padding */
 main {
+  background-color: #edd6d6; /* Sets the background color of the main section */
   padding: 20px; /* Adds padding to the main content */
 }
 
@@ -167,7 +167,8 @@ ul {
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif; /* Sets the font family for headings */
   color: #333333; /* Sets the color of headings */
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Adds space below */
+  margin-top: 20px; /* Adds space above */
 }
 
 p {
@@ -197,3 +198,4 @@ ul, ol {
   height: 100%; /* Sets the height of circular images to 100% */
   object-fit: cover; /* Ensures the circular image covers the entire container */
 }
+
