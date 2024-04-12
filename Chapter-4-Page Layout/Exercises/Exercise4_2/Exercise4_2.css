@@ -1,0 +1,115 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('dramatic.jpg'); /* Sets the background image for the header */
+    background-size: cover; /* Ensures the background image covers the entire header */
+    background-position: center; /* Centers the background image */
+    padding-top: 200px; /* Adds padding to the top of the header */
+    text-align: center; /* Aligns text in the center of the header */
+    position: relative; /* Allows positioning of child elements */
+}
+
+/* Basic styling for navigation */
+nav {
+    background-image: linear-gradient(to bottom, #000000, #919d292c);   
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Centering container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation styles */
+nav h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content layout */
+main {
+    padding: 20px 0;
+}
+
+/* Content container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; /* Arrange items vertically */
+}
+
+/* Styling for content sections */
+.content, .resources {
+    flex: 1;
+}
+.resources {
+    order: 1; /* Move Resources section to the top */
+}
+/* Additional styling for better spacing */
+.resources, .schedule {
+    margin-top: 20px; /* Add margin between sections */
+}   
+
+/* Schedule section */
+.schedule {
+    margin-top: 20px;
+    margin-left: 20px; /* Move the schedule to the left */
+    order: 2;
+}
+
+/* Styling for the table layout */
+.schedule table {
+    border-collapse: collapse; /* Collapse borders between cells */
+    width: 100%;
+}
+
+.schedule td {
+    border: 1px solid #ccc; /* Add border around each cell */
+    padding: 10px;
+}
+
+.schedule td:last-child {
+    border-right: none; /* Remove right border from the last column */
+}
+
+.schedule tr:last-child td {
+    border-bottom: none; /* Remove bottom border from the last row */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.video {
+    flex: 1; /* Make the video section take up remaining space */
+    margin-right: 20px; /* Add margin to the right to separate from the schedule */
+}
+
+.video img {
+    width: 500px; /* Make the video placeholder responsive */
+}

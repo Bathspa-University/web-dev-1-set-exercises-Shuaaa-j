@@ -1,167 +1,167 @@
-/* Set overflow-y to hidden for the HTML element */
+/* Hide vertical overflow */
 html {
     overflow-y: hidden; 
 }
 
-/* Reset default styles and set font-family for the body */
+/* Reset body styles and set font */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Container class to center content */
+/* Center content within container */
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; /* Center horizontally */
 }
 
-/* Styling for the header */
+/* Header styles */
 header {
-    background-color: #17072b;
-    color: #FFFFFF;
-    padding: 20px 0;
+    background-color: #17072b; /* Dark purple background */
+    color: #FFFFFF; /* White text */
+    padding: 20px 0; /* Padding top and bottom */
 }
 
-/* Styling for the header title */
+/* Header title styles */
 header h1 {
-    font-family: Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 65px;
-    margin: 25px;
-    text-align:center;
+    font-family: Tahoma, sans-serif; /* Font family */
+    font-weight: 700; /* Bold */
+    font-size: 65px; /* Large font size */
+    margin: 25px; /* Margin */
+    text-align:center; /* Center text */
 }
 
-/* Styling for the header title link */
+/* Header title link styles */
 header h1 a {
-    color: #FFFFFF;
+    color: #FFFFFF; /* White link color */
 }
 
-/* Styling for the navigation menu */
+/* Navigation menu styles */
 header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
 }
 
-/* Styling for the navigation menu */
+/* Navigation styles */
 header nav {
-    margin-top: 30px;
-    text-align: center; /* Center the navigation links */
+    margin-top: 30px; /* Margin at the top */
+    text-align: center; /* Center navigation links */
 }
 
-/* Styling for navigation menu items */
+/* Navigation menu item styles */
 header nav ul li {
-    display: inline;
-    margin-right: 40px;
+    display: inline; /* Display inline */
+    margin-right: 40px; /* Margin between items */
 }
 
-/* Styling for navigation menu links */
+/* Navigation link styles */
 header nav ul li a {
-    color: #FFFFFF;
-    font-size: 40px;
-    text-decoration: none;
+    color: #FFFFFF; /* White link color */
+    font-size: 40px; /* Large font size */
+    text-decoration: none; /* Remove underline */
 }
 
-/* Styling for the main content */
+/* Main content styles */
 main {
-    padding: 20px 0;
-    display: flex;
+    padding: 20px 0; /* Padding top and bottom */
+    display: flex; /* Flex layout */
 }
 
-/* Styling for welcome section */
+/* Welcome section styles */
 .welcome {
-    color: #000;
-    flex: 1;
-    margin-left:-100px
+    color: #000; /* Black text */
+    flex: 1; /* Flexible width */
+    margin-left: -100px; /* Margin adjustment */
 }
 
-/* Styling for welcome heading */
+/* Welcome heading styles */
 .welcome h1 {
-    text-decoration: underline;
-    font-size: 50px; /* Adjust the font size */
+    text-decoration: underline; /* Underline */
+    font-size: 50px; /* Large font size */
 }
 
-/* Styling for welcome message */
+/* Welcome message styles */
 .welcome h3 {
-    font-size: 34px; /* Adjust the font size */
-    font-weight: normal; /* Remove bold styling */
+    font-size: 34px; /* Large font size */
+    font-weight: normal; /* Normal weight */
 }
 
-
-/* Styling for the welcome section container */
+/* Welcome section container styles */
 .welcome .container {
-    position: relative;
+    position: relative; /* Relative position */
 }
 
-/* Styling for welcome section image */
+/* Welcome section image styles */
 .welcome .container img.one {
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 100%;
+    position: relative; /* Relative position */
+    top: 0; /* Top position */
+    right: 0; /* Right position */
+    width: 100%; /* Full width */
 }
 
-/* Styling for the line-up section */
+/* Line-up section styles */
 .line-up {
-    background-color: #172d67;
-    color: #FFFFFF;
-    padding: 20px;
-    float: right;
-    width: 700px;
-    height: 835px; /* Adjust the height as needed */
-    margin-bottom: -20px; /* Add negative margin to overlap with the footer */
+    background-color: #172d67; /* Dark blue background */
+    color: #FFFFFF; /* White text */
+    padding: 20px; /* Padding */
+    float: right; /* Float right */
+    width: 700px; /* Fixed width */
+    height: 835px; /* Fixed height */
+    margin-bottom: -20px; /* Negative margin to overlap footer */
 }
 
-/* Styling for the line-up section header */
+/* Line-up section header styles */
 .line-up h1 {
-    font-size: 50px; /* Adjust the font size */
-    margin-top: 25px;
-    margin-left: -50px;
+    font-size: 50px; /* Large font size */
+    margin-top: 25px; /* Margin at the top */
+    margin-left: -50px; /* Margin adjustment */
 }
 
-/* Styling for the line-up section text */
+/* Line-up section text styles */
 .line-up p {
-    font-size: 32px; /* Adjust the font size */
-    margin-left: -50px; 
-    text-decoration: none;
+    font-size: 32px; /* Large font size */
+    margin-left: -50px; /* Margin adjustment */
+    text-decoration: none; /* Remove underline */
 }
-/* Styling for the line-up section container */
+
+/* Line-up section container styles */
 .line-up .container {
-    position: relative;
+    position: relative; /* Relative position */
 }
 
-/* Styling for line-up section images */
+/* Line-up section image styles */
 .line-up .container img {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Margin at the bottom */
 }
 
-/* Styling for line-up section image two */
+/* Line-up section image two styles */
 .line-up .container img.two {
-    position: relative;
-    padding-left: 10px;
-    padding-right: 15px;
-    padding-top: 75px;
-    margin-left:-50px;
-    margin-left:-50px;
-    width: 50%;
+    position: relative; /* Relative position */
+    padding-left: 10px; /* Padding left */
+    padding-right: 15px; /* Padding right */
+    padding-top: 75px; /* Padding top */
+    margin-left: -50px; /* Margin adjustment */
+    margin-left: -50px; /* Margin adjustment */
+    width: 50%; /* Half width */
 }
 
-/* Styling for line-up section image three */
+/* Line-up section image three styles */
 .line-up .container img.three {
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 50%;
+    position: relative; /* Relative position */
+    top: 0; /* Top position */
+    right: 0; /* Right position */
+    width: 50%; /* Half width */
 }
 
-/* Styling for the footer */
+/* Footer styles */
 footer {
-    background-color: #8c15e9;
-    color: #FFFFFF;
-    font-size: 24px;
-    text-align: center; /* Center the text horizontally */  
-    margin-top: -4px; /* Add negative margin to overlap with the line-up section */
-    padding: 10px 10px;
-    text-decoration: none;
+    background-color: #8c15e9; /* Purple background */
+    color: #FFFFFF; /* White text */
+    font-size: 24px; /* Large font size */
+    text-align: center; /* Center text horizontally */
+    margin-top: -4px; /* Negative margin to overlap line-up section */
+    padding: 10px 10px; /* Padding */
+    text-decoration: none; /* Remove underline */
 }
