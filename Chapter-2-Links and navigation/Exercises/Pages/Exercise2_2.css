@@ -1,43 +1,41 @@
 /* Font styling */
 body {
-  font-family: rye-regular;
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(to bottom, #000000, #919d292c);
+  font-family: rye-regular; /* Set the default font family for the entire document */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: linear-gradient(to bottom, #000000, #919d292c); /* Apply a gradient background */
   background-size: cover; /* Make the background cover the entire page */
   background-attachment: fixed; /* Keep the background in place while the page scrolls */
 }
 
-
 /* Navbar styling */
 .navbar {
-    padding: 10px 20px; /* Add padding to the navbar */
-    position: relative; /* Set navbar position relative to its container */
-    top: 0; /* Position the navbar at the top */
-    left: 0; /* Position the navbar at the left */
-    width: 100%; /* Make the navbar span the full width of its container */
-    text-align: center; /* Center-align the navbar links */
-  
+  padding: 10px 20px; /* Add padding to the navbar */
+  position: relative; /* Set navbar position relative to its container */
+  top: 0; /* Position the navbar at the top */
+  left: 0; /* Position the navbar at the left */
+  width: 100%; /* Make the navbar span the full width of its container */
+  text-align: center; /* Center-align the navbar links */
 }
 
 .navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+  list-style-type: none; /* Remove default list styling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center-align navbar links */
 }
 
 .navbar li {
-  display: inline;
-  margin-right: 20px;
+  display: inline; /* Display navbar items inline */
+  margin-right: 20px; /* Add margin between navbar items */
 }
 
 .navbar a {
   color: #957829; /* Choose your desired text color */
-  text-shadow: 2px 2px 2px black;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
+  text-shadow: 2px 2px 2px black; /* Add shadow effect to navbar links */
+  text-decoration: none; /* Remove default underline from navbar links */
+  font-weight: bold; /* Set font weight for navbar links to bold */
+  padding: 10px; /* Add padding to navbar links */
 }
 
 .navbar a:hover {
@@ -48,67 +46,66 @@ body {
   background-color: #ddd; /* Choose your desired active page background color */
 }
 
-
 /* Header styling */
 header {
-  text-align: center;
-  padding: 50px 0;
+  text-align: center; /* Center-align header content */
+  padding: 50px 0; /* Add padding to the header */
 }
 
 header h1 {
-  font-size: 150px;
-  color: #957829;
-  font-family: rye-regular;
-  text-shadow: 2px 2px 2px black;
-  margin-bottom: 20px;
+  font-size: 150px; /* Set font size for header title */
+  color: #957829; /* Set color of header title */
+  font-family: rye-regular; /* Set font family for header title */
+  text-shadow: 2px 2px 2px black; /* Add shadow effect to header title */
+  margin-bottom: 20px; /* Add margin below header title */
 }
 
 /* Section styling */
 section {
-  padding: 20px;
-  margin: 0 auto 20px auto;
-  width: 70%;
-  background-color: rgba(255, 255, 255, 0.435);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Add padding to sections */
+  margin: 0 auto 20px auto; /* Center sections horizontally and add margin below */
+  width: 70%; /* Set width of sections */
+  background-color: rgba(255, 255, 255, 0.435); /* Set background color of sections with transparency */
+  border-radius: 10px; /* Add rounded corners to sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect to sections */
 }
 
 section h2 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-  text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.435);
-  padding-bottom: 10px;
+  font-size: 24px; /* Set font size for section headings */
+  color: #333; /* Set color of section headings */
+  margin-bottom: 10px; /* Add margin below section headings */
+  text-align: center; /* Center-align section headings */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.435); /* Add bottom border to section headings */
+  padding-bottom: 10px; /* Add padding below section headings */
 }
 
 section p {
-  font-size: 16px;
-  color: #555;
+  font-size: 16px; /* Set font size for section paragraphs */
+  color: #555; /* Set color of section paragraphs */
 }
 
 /* Footer styling */
 .footer {
-  text-align: center;
-  padding: 20px 0;
+  text-align: center; /* Center-align footer content */
+  padding: 20px 0; /* Add padding to the footer */
 }
 
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #000000;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  display: inline-block; /* Display buttons as inline blocks */
+  padding: 10px 20px; /* Add padding to buttons */
+  background-color: #000000; /* Set background color of buttons */
+  color: #fff; /* Set text color of buttons */
+  text-decoration: none; /* Remove default underline from buttons */
+  border-radius: 5px; /* Add rounded corners to buttons */
+  transition: background-color 0.3s; /* Add transition effect to button background color */
 }
 
 .button:hover {
-  background-color: #242222;
+  background-color: #242222; /* Change button background color on hover */
 }
 
 .section-box {
-  padding: 20px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
+  padding: 20px; /* Add padding to section boxes */
+  border-bottom: 1px solid #ccc; /* Add bottom border to section boxes */
+  margin-bottom: 20px; /* Add margin below section boxes */
 }
