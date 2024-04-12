@@ -1,148 +1,167 @@
+/* Set overflow-y to hidden for the HTML element */
+html {
+    overflow-y: hidden; 
+}
+
+/* Reset default styles and set font-family for the body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    position: relative;
-    min-height: 100vh; 
 }
 
+/* Container class to center content */
 .container {
-    width: 80%; 
+    width: 80%;
     margin: 0 auto;
 }
 
+/* Styling for the header */
 header {
     background-color: #17072b;
-    color: #ffffff;
-    padding: 40px 0; 
-    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 0;
 }
 
-header #logo {
+/* Styling for the header title */
+header h1 {
     font-family: Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 36px;
-    text-decoration: underline; 
+    font-size: 65px;
+    margin: 25px;
+    text-align:center;
 }
 
-#line-up h2 {
-    text-decoration: underline; 
+/* Styling for the header title link */
+header h1 a {
+    color: #FFFFFF;
 }
 
-header nav {
-    margin-top: 30px;
-    font-size: 20px; 
-}
-
+/* Styling for the navigation menu */
 header nav ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* Styling for the navigation menu */
+header nav {
+    margin-top: 30px;
+    text-align: center; /* Center the navigation links */
+}
+
+/* Styling for navigation menu items */
 header nav ul li {
     display: inline;
-    margin-left: 20px; 
+    margin-right: 40px;
 }
 
+/* Styling for navigation menu links */
 header nav ul li a {
-    color: #ffffff;
+    color: #FFFFFF;
+    font-size: 40px;
     text-decoration: none;
-    font-size: 26px;
 }
 
+/* Styling for the main content */
 main {
-    display: flex;
-    justify-content: space-between;
     padding: 20px 0;
-}
-
-section {
-    width: 48%;
-}
-
-p {
-    font-size: 26px;
-}
-
-
-#headings {
-    font-size: 30px;
-}
-
-#welcome {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 20px;
-    width: 70%; 
-    float: left; 
-}
-
-#welcome h1 {
-    text-decoration: underline; 
-    font-size: 36px; 
-}
-
-
-#welcome img {
-    display: block;
-    margin-top: 20px; 
-    width: 100%;
-}
-
-#line-up {
-    background-color: #172d67;
-    color: #ffffff;
-    padding: 20px;
-    width: 28%; 
-    float: right; 
-    font-size: 28px;
-}
-
-#line-up ul {
-    list-style-type: none; 
-    padding: 0;
-    margin-top: 20px;
-}
-
-#line-up li {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-#line-up ul li::before {
-    content: "-"; 
-    display: inline-block;
-    width: 1em; 
-    margin-left: -1em; 
-}
-
-.image-grid {
     display: flex;
-    flex-wrap: wrap;
 }
 
-.image-container {
-    float: left; 
-    width: calc(50% - 20px); 
-    padding: 10px;
-    box-sizing: border-box; 
+/* Styling for welcome section */
+.welcome {
+    color: #000;
+    flex: 1;
+    margin-left:-100px
 }
 
-.image-container img {
-    width: 100%; 
-    height: auto; 
-    max-width: 100%;
-    max-height: 100%; 
+/* Styling for welcome heading */
+.welcome h1 {
+    text-decoration: underline;
+    font-size: 50px; /* Adjust the font size */
 }
 
-footer {
-    position: absolute; 
-    bottom: 0;
+/* Styling for welcome message */
+.welcome h3 {
+    font-size: 34px; /* Adjust the font size */
+    font-weight: normal; /* Remove bold styling */
+}
+
+
+/* Styling for the welcome section container */
+.welcome .container {
+    position: relative;
+}
+
+/* Styling for welcome section image */
+.welcome .container img.one {
+    position: relative;
+    top: 0;
+    right: 0;
     width: 100%;
+}
+
+/* Styling for the line-up section */
+.line-up {
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+    float: right;
+    width: 700px;
+    height: 835px; /* Adjust the height as needed */
+    margin-bottom: -20px; /* Add negative margin to overlap with the footer */
+}
+
+/* Styling for the line-up section header */
+.line-up h1 {
+    font-size: 50px; /* Adjust the font size */
+    margin-top: 25px;
+    margin-left: -50px;
+}
+
+/* Styling for the line-up section text */
+.line-up p {
+    font-size: 32px; /* Adjust the font size */
+    margin-left: -50px; 
+    text-decoration: none;
+}
+/* Styling for the line-up section container */
+.line-up .container {
+    position: relative;
+}
+
+/* Styling for line-up section images */
+.line-up .container img {
+    margin-bottom: 10px;
+}
+
+/* Styling for line-up section image two */
+.line-up .container img.two {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 75px;
+    margin-left:-50px;
+    margin-left:-50px;
+    width: 50%;
+}
+
+/* Styling for line-up section image three */
+.line-up .container img.three {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+/* Styling for the footer */
+footer {
     background-color: #8c15e9;
-    color: #ffffff;
-    padding: 1px 0; 
-    text-align: center;
-    font-size: 14px; 
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center; /* Center the text horizontally */  
+    margin-top: -4px; /* Add negative margin to overlap with the line-up section */
+    padding: 10px 10px;
+    text-decoration: none;
 }
