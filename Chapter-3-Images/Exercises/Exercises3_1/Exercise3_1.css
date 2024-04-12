@@ -3,7 +3,6 @@ body, html {
   padding: 0;
 }
 
-
 .container {
   display: flex;
   justify-content: center;
@@ -13,12 +12,10 @@ body, html {
   margin: 0 auto; 
 }
 
-
 .image-container {
   position: relative; 
   margin: 10px; 
 }
-
 
 .image-container img {
   width: 300px; 
@@ -26,8 +23,8 @@ body, html {
   display: block; 
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  filter: sepia(20%) brightness(110%) saturate(120%) contrast(90%); /* Adjusted filters for a warm tone */
 }
-
 
 .image-container::after {
   content: ""; 
