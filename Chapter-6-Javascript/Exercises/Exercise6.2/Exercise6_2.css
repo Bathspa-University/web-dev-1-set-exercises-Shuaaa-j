@@ -14,10 +14,9 @@ body {
     margin: 50px auto; /* Center the container horizontally */
     text-align: center;
     background-color: #fff;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top:300px;
+    margin-top:350px;
 }
 
 
@@ -62,4 +61,17 @@ body {
 
 #restart-btn:hover {
     background-color: #27ae60;
+}
+
+#high-score {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 999; /* Ensure it's above other content */
 }
