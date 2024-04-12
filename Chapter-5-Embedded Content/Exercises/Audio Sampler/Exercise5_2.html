@@ -7,20 +7,27 @@
   <link rel="stylesheet" href="Exercise5_2.css"> 
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Comedy Radio Show Soundboard</h1> <!-- Heading for the soundboard -->
-    <div class="soundboard">
-      <!-- Audio Samples will be dynamically added here -->
-    </div>
-    <div class="text-to-speech">
-      <textarea id="text-to-speech-input" placeholder="Type your text here..."></textarea> <!-- Text area for user input -->
-      <button id="text-to-speech-button">Convert to Audio</button> <!-- Button to convert text to speech -->
-    </div>
-    <div class="pagination">
-      <button id="prev-page">&larr; Prev</button> <!-- Button for previous page -->
-      <button id="next-page">Next &rarr;</button> <!-- Button for next page -->
-    </div>
-  </div>
+  </header>
+  <main>
+    <section class="container">
+      <article class="soundboard">
+        <!-- Audio Samples will be dynamically added here -->
+      </article>
+      <section class="text-to-speech">
+        <textarea id="text-to-speech-input" placeholder="Type your text here..."></textarea> <!-- Text area for user input -->
+        <button id="text-to-speech-button">Convert to Audio</button> <!-- Button to convert text to speech -->
+      </section>
+      <nav class="pagination">
+        <button id="prev-page">&larr; Prev</button> <!-- Button for previous page -->
+        <button id="next-page">Next &rarr;</button> <!-- Button for next page -->
+      </nav>
+    </section>
+  </main>
+  <footer>
+    <!-- Footer content goes here -->
+  </footer>
   <script src="Exercise5_2.js"></script> 
 </body>
 </html>
