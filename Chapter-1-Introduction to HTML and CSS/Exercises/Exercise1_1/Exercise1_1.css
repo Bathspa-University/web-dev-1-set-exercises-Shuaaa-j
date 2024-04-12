@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rating {
+  color: #ffcc00;
+  font-size: 24px;
+  margin-top:-50px;
+}
+
+.rating i {
+  margin-right: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #524343;
+  padding: 20px;
+}
+
+header {
+  background-image: url('image2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.header {
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.header h1 {
+  margin-top: 40px;
+  font-size: 32px;
+  color: #eddddd;
+}
+
