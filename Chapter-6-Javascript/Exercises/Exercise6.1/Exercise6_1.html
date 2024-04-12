@@ -6,3 +6,21 @@
     <title>Petrol Calculator</title>
     <link rel="stylesheet" href="Exercise6_1.css">
 </head>
+<body>
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+        <div class="input-group">
+            <label for="petrolCost">Cost of Petrol per Liter:</label>
+            <input type="number" id="petrolCost" step="0.01" value="1.72">
+        </div>
+        <div class="input-group">
+            <label for="liters">Number of Liters Purchased:</label>
+            <input type="number" id="liters" step="0.01" value="0">
+        </div>
+        <button id="calculateBtn">Calculate</button>
+        <p id="totalCost" class="hidden">Total Cost: <span id="result"></span></p>
+    </div>
+
+    <script src="Exercise6_1.js"></script>
+</body>
+</html>
