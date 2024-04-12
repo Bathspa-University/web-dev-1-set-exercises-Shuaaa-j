@@ -1,0 +1,114 @@
+/* Font styling */
+body {
+  font-family: rye-regular;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #000000, #919d292c);
+  background-size: cover; /* Make the background cover the entire page */
+  background-attachment: fixed; /* Keep the background in place while the page scrolls */
+}
+
+
+/* Navbar styling */
+.navbar {
+    padding: 10px 20px; /* Add padding to the navbar */
+    position: relative; /* Set navbar position relative to its container */
+    top: 0; /* Position the navbar at the top */
+    left: 0; /* Position the navbar at the left */
+    width: 100%; /* Make the navbar span the full width of its container */
+    text-align: center; /* Center-align the navbar links */
+  
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #957829; /* Choose your desired text color */
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #f0f0f0; /* Choose your desired hover background color */
+}
+
+.navbar a.active {
+  background-color: #ddd; /* Choose your desired active page background color */
+}
+
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 150px;
+  color: #957829;
+  font-family: rye-regular;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+section {
+  padding: 20px;
+  margin: 0 auto 20px auto;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.435);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.435);
+  padding-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #242222;
+}
+
+.section-box {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
