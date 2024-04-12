@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultDisplay = document.getElementById('result');
     const billsInsertedDisplay = document.getElementById('billsInserted');
     const changeDisplay = document.getElementById('change');
+    const errorDisplay = document.getElementById('errorDisplay');
 
     calculateBtn.addEventListener('click', function() {
         const petrolCost = parseFloat(petrolCostInput.value);
@@ -15,10 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const billsInserted = parseFloat(billsInput.value);
         const change = billsInserted - totalCost;
 
-        resultDisplay.textContent = `AED ${totalCost.toFixed(2)}`;
-        billsInsertedDisplay.textContent = `AED ${billsInserted.toFixed(2)}`;
-        changeDisplay.textContent = `AED ${change.toFixed(2)}`;
+        if (billsInserted < totalCost) {
+            errorDisplay.textContent = "Invalid amount. Please insert enough money.";
+            receipt.classList.add('hidden');
+        } else {
+            errorDisplay.textContent = "";
+            resultDisplay.textContent = `AED ${totalCost.toFixed(2)}`;
+            billsInsertedDisplay.textContent = `AED ${billsInserted.toFixed(2)}`;
+            changeDisplay.textContent = `AED ${change.toFixed(2)}`;
 
-        receipt.classList.remove('hidden');
+            receipt.classList.remove('hidden');
+        }
     });
 });
