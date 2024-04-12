@@ -18,7 +18,7 @@ Embed a locally hosted video of your choice into a html document. The video must
 
 ### Alan Partridge Soundboard (Bonus - Optional)
 
-A local comedy radio show needs you to develop an audio soundboard for them. The soundboard will display a grid of Alan Partridge samples. When a sample is clicked the associated audio file will play. The audio samples for this exercise are located in Exercises/Audio Sampler. Your sampler must:
+A local comedy radio show needs you to develop an audio soundboard for them. The soundboard will display a grid of Alan Partridge samples. When a sample is clicked the associated audio file will play. The audio samples for t    his exercise are located in Exercises/Audio Sampler. Your sampler must:
 
 * Include all of the samples in the Audio Sampler directory;
 * Display all samples on a single non-scrolling page;
