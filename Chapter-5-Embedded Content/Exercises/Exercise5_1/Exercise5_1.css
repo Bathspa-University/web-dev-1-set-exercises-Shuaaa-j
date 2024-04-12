@@ -1,0 +1,51 @@
+/* Resetting default styles and setting up the container */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Specify the background image URL */
+    background-image: url('Exercise5_1.jpg');
+    /* Set background size to cover the entire viewport */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+}
+
+/* Styling for the video container */
+.video-container {
+    max-width: 800px;
+}
+
+/* Styling for the video element */
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for the controls */
+.controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for buttons */
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Styling for range input */
+input[type="range"] {
+    width: 100px;
+}
