@@ -2,15 +2,14 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
-    font-size: 24px;
-    
+    font-size: 24px; /* Set font size for all elements */
 }
 
 /* Basic styling */
 body {
-    font-family: rye-regular;
-    line-height: 1.6;
-    background-color: #f9f9f9;
+    font-family: rye-regular; /* Set the font family for the body */
+    line-height: 1.6; /* Set the line height */
+    background-color: #f9f9f9; /* Set the background color */
 }
 
 header {
@@ -23,79 +22,78 @@ header {
 }
 
 header h1{
-    color:white;
+    color:white; /* Sets the color of the h1 text in the header */
 }
 
 nav {
-    background-image: linear-gradient(to bottom, #000000, #919d292c);  
-    padding: 10px 0;
+    background-image: linear-gradient(to bottom, #000000, #919d292c);  /* Sets a gradient background for the navigation */
+    padding: 10px 0; /* Adds padding to the top and bottom of the navigation */
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
+    list-style-type: none; /* Removes the default list style */
+    text-align: center; /* Aligns text in the center of the navigation */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Displays list items inline */
+    margin-right: 20px; /* Adds margin to the right of each list item */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* Sets the color of the navigation links */
+    text-decoration: none; /* Removes underline from navigation links */
 }
 
 main {
-    display: flex;
-    flex-direction: column; /* Change to column */
-    margin: 20px 0;
+    display: flex; /* Use flexbox for main content */
+    flex-direction: column; /* Change to column layout */
+    margin: 20px 0; /* Adds margin to the top and bottom of the main content */
 }
 
-
 .column {
-    flex: 1;
-    background-color: #ffffff7b;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Makes columns grow to fill available space */
+    background-color: #ffffff7b; /* Sets the background color for columns */
+    padding: 20px; /* Adds padding inside the columns */
+    border-radius: 5px; /* Adds rounded corners to the columns */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds a box shadow to the columns */
 }
 
 /* Style for Resources Section */
 #resources {
-    margin-top: 20px;
-    margin-left:25px;
+    margin-top: 20px; /* Adds margin to the top of the resources section */
+    margin-left:25px; /* Adds margin to the left of the resources section */
 }
 
 .resource-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* Use flexbox for resource items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .resource-item {
-    flex: 1 0 300px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    flex: 1 0 300px; /* Set flex properties for resource items */
+    margin: 10px; /* Adds margin around each resource item */
+    padding: 10px; /* Adds padding inside each resource item */
+    background-color: #f9f9f9; /* Sets the background color for resource items */
+    border-radius: 5px; /* Adds rounded corners to resource items */
 }
 
 .resource-item a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    text-decoration: none; /* Removes underline from resource links */
+    color: #333; /* Sets the color of resource links */
+    font-weight: bold; /* Makes resource links bold */
 }
 
 .resource-item p {
-    margin-top: 5px;
-    font-size: 20px;
-    color: #666;
+    margin-top: 5px; /* Adds margin to the top of resource item paragraphs */
+    font-size: 20px; /* Sets font size for resource item paragraphs */
+    color: #666; /* Sets the color of resource item paragraphs */
 }
 
 #bottom-image {
-    text-align: center;
+    text-align: center; /* Aligns content in the center */
 }
 
 #bottom-image img {
-    display: inline-block;
+    display: inline-block; /* Displays the image as an inline block */
 }
