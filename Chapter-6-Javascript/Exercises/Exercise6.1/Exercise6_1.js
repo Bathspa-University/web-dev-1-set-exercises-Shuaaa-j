@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Get references to DOM elements
     const calculateBtn = document.getElementById('calculateBtn');
     const petrolCostInput = document.getElementById('petrolCost');
     const litersInput = document.getElementById('liters');
@@ -9,23 +10,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const changeDisplay = document.getElementById('change');
     const errorDisplay = document.getElementById('errorDisplay');
 
+    // Event listener for the calculate button
     calculateBtn.addEventListener('click', function() {
+        // Parse input values to numbers
         const petrolCost = parseFloat(petrolCostInput.value);
         const liters = parseFloat(litersInput.value);
         const totalCost = petrolCost * liters;
         const billsInserted = parseFloat(billsInput.value);
         const change = billsInserted - totalCost;
 
+        // Check if bills inserted are less than total cost
         if (billsInserted < totalCost) {
+            // Display error message if not enough money inserted
             errorDisplay.textContent = "Invalid amount. Please insert enough money.";
-            receipt.classList.add('hidden');
+            receipt.classList.add('hidden'); // Hide receipt display
         } else {
-            errorDisplay.textContent = "";
-            resultDisplay.textContent = `AED ${totalCost.toFixed(2)}`;
-            billsInsertedDisplay.textContent = `AED ${billsInserted.toFixed(2)}`;
-            changeDisplay.textContent = `AED ${change.toFixed(2)}`;
-
-            receipt.classList.remove('hidden');
+            // Calculate and display receipt
+            errorDisplay.textContent = ""; // Clear error message
+            resultDisplay.textContent = `AED ${totalCost.toFixed(2)}`; // Display total cost
+            billsInsertedDisplay.textContent = `AED ${billsInserted.toFixed(2)}`; // Display bills inserted
+            changeDisplay.textContent = `AED ${change.toFixed(2)}`; // Display change
+            receipt.classList.remove('hidden'); // Show receipt display
         }
     });
 });
