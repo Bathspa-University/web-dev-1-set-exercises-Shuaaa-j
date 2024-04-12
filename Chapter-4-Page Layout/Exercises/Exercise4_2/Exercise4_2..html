@@ -3,90 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Planner</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Study Plan - Web Development Module</title>
+    <link rel="stylesheet" href="Exercise4_2.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
+        <h1>Study Plan - Web Development Module</h1>
     </header>
+
+    <!-- Navigation Menu -->
     <nav>
-        <div class="container">
-            <h1>Web Development Study Planner</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Resources</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Left Column -->
+        <div class="column">
+            <h2>Schedule - Week 1</h2> <!-- Updated -->
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>Study HTML Basics</li>
+                <li>Complete Assignment 1</li>
             </ul>
         </div>
-    </nav>
-    <main>
-        <div class="container">
-            <section class="content">
-                <h2>Introduction to Web Development</h2>
-                <div class="video">
-                    <img src="a65ed745e0bc29a55693344c0b7e6814 (1).gif" alt="Video Placeholder">
-                </div>
-                 <div class="schedule">
-        <table>
-            <tr>
-                <td>
-                    <h3>Week 1 Schedule</h3>
-                    <ul>
-                        <li>HTML Basics</li>
-                        <li>CSS Basics</li>
-                        <li>Introduction to JavaScript</li>
-                    </ul>
-                </td>
-                <td>
-                    <h3>Week 2 Schedule</h3>
-                    <ul>
-                        <li>DOM Manipulation</li>
-                        <li>Responsive Web Design</li>
-                        <li>Introduction to Git</li>
-                    </ul>
-                </td>
-                <td>
-                    <h3>Week 3 Schedule</h3>
-                    <ul>
-                        <li>Advanced CSS Techniques</li>
-                        <li>JavaScript Functions</li>
-                        <li>Version Control with Git</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
-</section>
-            <section class="resources">
-                <h2>Resources</h2>
-                <div class="resource-item">
-                    <a href="#">HTML Tutorial</a>
-                    <p>A comprehensive guide to HTML basics.</p>
-                </div>
-                <div class="resource-item">
-                    <a href="#">CSS Tutorial</a>
-                    <p>Learn CSS from scratch with examples.</p>
-                </div>
-                <div class="resource-item">
-                    <a href="#">JavaScript Tutorial</a>
-                    <p>Master JavaScript fundamentals with practical exercises.</p>
-                </div>
-                <div class="resource-item">
-                    <a href="#">Git Basics</a>
-                    <p>Understand version control using Git and GitHub.</p>
-                </div>
-                <div class="resource-item">
-                    <a href="#">Responsive Web Design</a>
-                    <p>Explore techniques for creating responsive web layouts.</p>
-                </div>
-            </section>
+
+        <!-- Middle Column -->
+        <div class="column">
+            <h2>Schedule - Week 2</h2> <!-- Updated -->
+            <ul>
+                <li>Study CSS Fundamentals</li>
+                <li>Complete Assignment 2</li>
+            </ul>
+        </div>
+
+        <!-- Right Column -->
+        <div class="column">
+            <h2>Schedule - Week 3</h2> <!-- Updated -->
+            <ul>
+                <li>Study JavaScript Basics</li>
+                <li>Complete Assignment 3</li>
+            </ul>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Study Planner. All rights reserved.</p>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <div class="resource-container">
+            <div class="resource-item">
+                <a href="#">HTML Tutorial</a>
+                <p>A comprehensive guide to HTML basics.</p>
+            </div>
+            <div class="resource-item">
+                <a href="#">CSS Tutorial</a>
+                <p>Learn CSS from scratch with examples.</p>
+            </div>
+            <div class="resource-item">
+                <a href="#">JavaScript Tutorial</a>
+                <p>Master JavaScript fundamentals with practical exercises.</p>
+            </div>
+            <div class="resource-item">
+                <a href="#">Git Basics</a>
+                <p>Understand version control using Git and GitHub.</p>
+            </div>
+            <div class="resource-item">
+                <a href="#">Responsive Web Design</a>
+                <p>Explore techniques for creating responsive web layouts.</p>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Image Section -->
+    <section id="bottom-image">
+        <img src="Wireframe.png" alt="Bottom Image">
+    </section>
+
 </body>
 </html>
