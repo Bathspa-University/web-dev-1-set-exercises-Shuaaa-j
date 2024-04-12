@@ -37,9 +37,9 @@ header {
 }
 
 .header h1 {
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 32px;
-  color: #eddddd;
+  color: #ffffff;
 }
 
 header,footer {
@@ -68,7 +68,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #eddddd;
+  color: #ffffff;
   padding: 10px;
   border-radius: 20px;
   transition: background-color 0.3s ease;
