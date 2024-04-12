@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url('4Exercise2_1.jpg'); /* Sets the background image for the header */
+    background-image: url('dramatic.jpg'); /* Sets the background image for the header */
     background-size: cover; /* Ensures the background image covers the entire header */
     background-position: center; /* Centers the background image */
     padding-top: 200px; /* Adds padding to the top of the header */
@@ -92,10 +92,13 @@ main {
     color: #666;
 }
 
-#bottom-image {
-    text-align: center;
-}
 
-#bottom-image img {
-    display: inline-block;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
